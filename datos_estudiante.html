@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del estudiante</title>
+</head>
+<body>
+    <!--Esta es la sección visible de la página web-->
+    <h1>REGISTRO DE ESTUDIANTES - ESPECIALIDAD EN SISTEMAS</h1>
+    <!--Formulario web-->
+    <form action ="#" method ="">
+        <!--Sección de datos del estudiante-->
+        <fieldset>
+            <legend>Datos del estudiante</legend>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id ="apellidos" name="apellidos">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento">
+            <label for="lugar">Lugar de nacimiento</label>
+            <input type="text" id="lugar" name="lugar">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad">
+            <label for="documento">Tipo de documento</label>
+            <select>
+                <option value="documento">T.I</option>
+                <option value="documento">C.C</option>
+            </select>
+            <br>
+            <label for="numerodocumento">Número Documento Identidad:</label>
+            <input type="number" id="numerodocumento" name="numerodocumento">
+            <br>
+            <label for="lugardocumento">Lugar Expedición Documento Identidad:</label>
+            <input type="text" id="lugardocumento" name="lugardocumento">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+            <br>
+            <label for="barrio">Barrio:</label>
+            <input type="text" id="barrio" name="barrio">
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad">
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono">
+            <br>
+            <label for="celular">Celular:</label>
+            <input type="number" id="celular" name="celular">
+            <label for="emailpersonal">E-mail personal:</label>
+            <input type="email" id="emailpersonal" name="emailpersonal">
+            <br>
+            <label for="emailinstitucional">E-mail inst:</label>
+            <input type="email" id="emailinstitucional" name="emailinstitucional">
+            <label for="tiposangre">Tipo de Sangre:</label>
+            <select>
+                <option value="tiposangre">A+</option>
+                <option value="tiposangre">A-</option>
+                <option value="tiposangre">B+</option>
+                <option value="tiposangre">B-</option>
+                <option value="tiposangre">AB+</option>
+                <option value="tiposangre">AB-</option>
+                <option value="tiposangre">O+</option>
+                <option value="tiposangre">O-</option>
+            </select>
+            <label for="eps">EPS:</label>
+            <input type="text" id="eps" name="eps">
+            <label for="enfermedades">¿Sufre de alguna enfermedad?</label>
+            <select>
+                <option value="Sí">Sí:</option>
+                <option value="No">No:</option>
+            </select>
+            <br>
+            <label for="enfermedades">¿Cuál?:</label>
+            <input type="text" id="enfermedades" name="enfermedades">
+            <label for="estrato">Estrato económico:</label>
+            <input type="number" id="estrato" name="estrato">
+            <label for="familiaaccion">Familias en acción:</label>
+            <select>
+                <option value="si">Sí:</option>
+                <option value="no">No:</option>
+            </select>
+            <br>
+            <label for="religion">Tipo de religión:</label>
+            <input type="text" id="religion" name="religion">
+            <label for="relacion">Relación padres:</label>
+            <select>
+                <option value="casados">Casados:</option>
+                <option value="divorciados">Divorciados:</option>
+                <option value="unionlibre">Unión libre:</option>
+                <option value="otro">Otro:</option>
+            </select>
+            <label for="computadora">¿Computadora en casa?:</label>
+            <select>
+                <option value="si">Sí:</option>
+                <option value="no">No:</option>
+            </select>
+            <label for="internet">¿Internet en casa?:</label>
+            <select>
+                <option value="si">Sí:</option>
+                <option value="no">No:</option>
+            </select>
+            <br>
+            <label for="actividades">¿Cuáles son las principales actividades que usted realiza en su tiempo libre?:</label>
+            <br>
+            <textarea  id="actividades" name="actividades"></textarea>
+            <br>
+            <label for="propositos">¿Cuáles son sus propósitos y espectativas personales y académicas como estudiante de la Especialidad en Sistemas?:</label>
+            <br>
+            <textarea id="propositos" name="propositos"></textarea>
+    </fieldset>
+            <br>
+            <br>
+            <br>
+        <!--Sección de datos del padre-->
+    <fieldset>
+        <legend>Datos del Padre</legend>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id ="apellidos" name="apellidos">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+        <label for="barrio">Barrio:</label>
+        <input type="text" id="barrio" name="barrio">
+        <label for="telefono">Teléfono:</label>
+        <input type="number" id="telefono" name="telefono">
+        <br>
+        <label for="celular">Celular:</label>
+        <input type="number" id="celular" name="celular">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="ocupacion">Ocupación</label>
+        <input type="text" id="ocupacion" name="ocupacion">
+    </fieldset>
+            <br>
+            <br>
+            <br>
+        <!--Sección de datos de la madre-->
+        <fieldset>
+            <legend>Datos de la Madre</legend>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id ="apellidos" name="apellidos">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+            <label for="barrio">Barrio:</label>
+            <input type="text" id="barrio" name="barrio">
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono">
+            <br>
+            <label for="celular">Celular:</label>
+            <input type="number" id="celular" name="celular">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <label for="ocupacion">Ocupación</label>
+            <input type="text" id="ocupacion" name="ocupacion">
+        </fieldset>
+            <br>
+            <br>
+            <br>
+    <!--Sección de datos del acudiente-->
+    <fieldset>
+        <legend>Datos del acudiente
+            (Persona que asistirá a las reuniones y entrega de boletines; ya sea madre, padre u otro)
+        </legend>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id ="apellidos" name="apellidos">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="parentesco">Parentesco:</label>
+        <input type="text" id="parentesco" name="parentesco">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+        <label for="barrio">Barrio:</label>
+        <input type="text" id="barrio" name="barrio">
+        <label for="telefono">Teléfono:</label>
+        <input type="number" id="telefono" name="telefono">
+        <br>
+        <label for="celular">Celular:</label>
+        <input type="number" id="celular" name="celular">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="ocupacion">Ocupación</label>
+        <input type="text" id="ocupacion" name="ocupacion">
+    </fieldset>
+        <br>
+        <br>           
+        <button type="submit">Enviar formulario</button>
+        <button type="reset">Limpiar datos</button>
+        <br>
+        <br>
+        <legend>"Ser Guanentino, honor que cuesta"</legend>
+    </form>
+</body>
+</html>
